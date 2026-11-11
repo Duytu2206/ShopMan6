@@ -1,0 +1,21 @@
+# Thong tin ket noi CSDL (chua mat khau) - moi nguoi tu tao tu db.properties.example
+src/db.properties
+
+# Thu vien va server tai ve bang scripts/setup-libs.ps1
+tools/
+lib/
+*.jar
+
+# File sinh ra khi bien dich / chay test
+build/
+bin/
+WebContent/WEB-INF/classes/
+
+# Rac cua he dieu hanh / IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.settings/
+.classpath
+.project

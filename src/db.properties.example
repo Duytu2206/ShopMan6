@@ -1,0 +1,6 @@
+# Mau cau hinh ket noi CSDL.
+# Sao chep file nay thanh src/db.properties roi sua user/password cho phu hop voi MySQL tren may.
+# File db.properties KHONG duoc dua len GitHub (da khai bao trong .gitignore).
+db.url=jdbc:mysql://localhost:3306/ShopManDB?autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh&characterEncoding=UTF-8
+db.user=root
+db.password=your_mysql_password

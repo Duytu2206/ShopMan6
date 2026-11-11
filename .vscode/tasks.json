@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ShopMan6: Tai thu vien (chay 1 lan)",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File scripts/setup-libs.ps1",
+            "problemMatcher": []
+        },
+        {
+            "label": "ShopMan6: Bien dich",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File scripts/build.ps1",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "ShopMan6: Chay kiem thu JUnit",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File scripts/run-tests.ps1",
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "ShopMan6: Chay web (Tomcat)",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File scripts/run-tomcat.ps1",
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}

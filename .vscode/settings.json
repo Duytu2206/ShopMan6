@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src", "test"],
+    "java.project.outputPath": "build/vscode-classes",
+    "java.project.referencedLibraries": [
+        "WebContent/WEB-INF/lib/**/*.jar",
+        "lib/**/*.jar"
+    ],
+    "files.encoding": "utf8",
+    "files.exclude": {
+        "build": true,
+        "tools": true
+    }
+}
